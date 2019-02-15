@@ -84,7 +84,7 @@ export default class InputCalender extends React.Component {
         this.props.setDay(newDay);
 
 
-        // TODO:: Use refs. instead ya mot5alef.
+        // TODO:: Use refs. instead.
         // Removing the CURRENT__DAY flag from the previous button.
         document.querySelector('.current-day-btn').classList.remove('current-day-btn');
         // Adding the CURRENT__DAY flag to the real current button!!
